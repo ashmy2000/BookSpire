@@ -1,0 +1,65 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ / Android Studio related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code (Optional)
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+generated_plugin_registrant.dart
+
+# Android specific ignores
+android/.gradle/
+android/.idea/
+android/key.jks
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# iOS specific ignores
+ios/.symlinks/
+ios/Pods/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/ephemeral/
+ios/DerivedData/
+
+# Lock files
+*.lock
+
+# Xcode build cache (DerivedData)
+ios/DerivedData/
+xcuserdata/
+
+# Ignore test coverage reports
+coverage/
+
+# Ignore Swift Package Manager folders
+.swiftpm/
+Package.resolved
