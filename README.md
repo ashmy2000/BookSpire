@@ -1,4 +1,4 @@
-# bookspire_app TEST
+# bookspire_app
 
 A Virtual Book App
 
