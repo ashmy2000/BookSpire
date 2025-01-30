@@ -15,13 +15,11 @@ void main() {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-              'https://www.w3schools.com/w3css/img_lights.jpg', // Working image URL
-            ),
+            image:
+                AssetImage('images/bookspire_logo.jpeg'), // Working image URL
           ),
         ),
       ),
     ),
   );
 }
-
